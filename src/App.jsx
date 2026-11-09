@@ -19,7 +19,7 @@ function App() {
     }
     const intervalId = setInterval(() => {
       setColor(prev => prev === "red" ? "blue" : "red")
-    }, 500)
+    }, 200)
 
     return () => clearInterval(intervalId)
 
